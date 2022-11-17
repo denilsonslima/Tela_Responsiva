@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EC362D;
+    color: #FFFFFF;
+    font-size: 4rem;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.topo {
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url(https://static.preparaenem.com/2022/08/paisagem-natural-suica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+main {
+    max-width: 760px;
+    height: 100vh;
+    margin: auto;
+    padding-top: 40px;
+}
+
+section {
+    width: 100%;
+    /* max-height: 680px; */
+    padding: 30px;
+    margin-bottom: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    font-size: 2.3rem;
+}
+
+.titulo {
+    width: 100%;
+    height: 140px;
+    background-color: #434CA0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.conteudo {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteudo div {
+    width: 48%;
+}
+
+.conteudo div img{
+    width: 100%;
+    max-height: 175px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 790px){
+    header {
+        height: 10vh;
+        font-size: 3rem;
+    } 
+
+    .topo {
+        max-height: 140px;
+        font-size: 3rem;
+        margin-top: 10vh;
+    } 
+
+    section {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo {
+        max-height: 90px;
+        font-size: 2rem;
+    }
+}
